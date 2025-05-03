@@ -81,3 +81,39 @@ body{
 .rate{
   color: red;
 }
+
+.third-box{
+  width: 400px;
+  height: 160px;
+  border: 1px solid black;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  background-color: aliceblue;
+}
+.profile{
+  margin-left: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.profile-id{
+  color: rgb(90, 89, 89);
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tweet{
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+
+.last-tweet{
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+
+.profile-mentor{
+  color: rgb(25, 105, 241);
+  margin-right: 4px;
+}
