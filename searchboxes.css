@@ -42,9 +42,32 @@ p{
 }
 
 .linkedin-box{
-  width: 500px;
+  width: 370px;
   height: 250px;
   border: 1px solid black;
   margin-top: 30px;
   background-color: white;
+}
+
+.linkedin{
+  margin-left: 15px;
+  width: 320px;
+  height: 24px;
+}
+.linkedin-explanation{
+  color: grey;
+  font-size: 14px;
+  margin-left: 15px;
+  
+}
+
+.join-button{
+  width: 326px;
+  height: 35px;
+  margin-left: 15px;
+  font-size: 16px;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(13, 127, 227);
+  color: white;
 }
