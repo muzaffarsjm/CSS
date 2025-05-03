@@ -2,6 +2,7 @@ body{
   background-color: rgb(99, 158, 209);
   margin-top: 20px;
   margin-left: 20px;
+  padding-bottom: 600px;
 }
 p{
   margin-left: 20px;
@@ -11,7 +12,7 @@ p{
   height: 100px;
   width: 300px;
   border: 1px solid black;
-  background-color: rgb(204, 248, 248);
+  background-color: rgb(235, 243, 243);
 }
 .first-box{
   margin-top: 30px;
@@ -70,4 +71,43 @@ p{
   border: none;
   background-color: rgb(13, 127, 227);
   color: white;
+}
+
+.last-twitter{
+  height: 120px;
+  width: 600px;
+  border: 1px solid black;
+  margin-top: 30px;
+  padding-left: 20px;
+  background-color: rgb(228, 225, 225);
+}
+.cat-profile{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+.cat-input{
+  font-size: 17px;
+  border: none;
+  width: 350px;
+  height: 35px;
+  padding-left: 10px;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+.tweet-button{
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 40px;
 }
