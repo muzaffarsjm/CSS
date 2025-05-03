@@ -1,6 +1,7 @@
 body{
   background-color: rgb(235, 234, 250);
   margin-left: 30px;
+  padding-bottom: 150px;
 }
 .first-box{
   margin-top: 20px;
@@ -67,4 +68,39 @@ body{
   border: none;
   font-size: 18px;
   box-shadow: 5px 5px 15px rgb(160, 159, 159);
+}
+.signup-form{
+  background-color: white;
+  width: 400px;
+  height: 300px;
+}
+
+.location{
+  display: inline-block;
+}
+.first-name,
+.family-name{
+  height: 35px;
+  border: 1px solid grey;
+  font-size: 17px;
+  padding-left: 8px;
+  border-radius: 5px;
+  margin-top: 8px;
+  margin-left: 6px;
+  margin-bottom: 10px;
+}
+
+.email{
+  height: 35px;
+  width: 376px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-left: 6px;
+  padding-left: 8px;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.join-button{
+  
 }
