@@ -1,15 +1,23 @@
 body{
   background-color: rgb(235, 234, 250);
   margin-left: 30px;
+  margin-top: 40px;
   padding-bottom: 150px;
 }
+p{
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 .first-box{
-  margin-top: 20px;
   height: 100px;
   width: 400px;
   border: 1px solid black;
   background-color: aliceblue;
   padding-left: 15px;
+  padding-top: 12px;
+  margin-bottom: 30px;
 }
 .first-box p{
   display: inline-block;
@@ -24,10 +32,10 @@ body{
   width: 50px;
   height: 30px;
   margin-right: 8px;
+  cursor: pointer;
 }
 
 .register-form{
-  margin-top: 20px;
   border: 1px solid black;
   width: 250px;
   padding: 20px 20px;
@@ -68,11 +76,25 @@ body{
   border: none;
   font-size: 18px;
   box-shadow: 5px 5px 15px rgb(160, 159, 159);
+  color: rgb(18, 17, 17);
+  padding-left: 20px;
 }
+.google-input:focus{
+  outline: none;
+}
+.google-input:active{
+  border: none;
+  box-shadow: 5px 5px 15px rgb(160, 159, 159);
+}
+.google-input::placeholder{
+  padding-left: 2px;
+}
+
 .signup-form{
   background-color: white;
   width: 430px;
   height: 220px;
+  margin-bottom: 30px;
 }
 
 .location{
@@ -112,4 +134,49 @@ body{
   margin-bottom: 10px;
   background-color: rgb(23, 95, 219);
   color: white;
+  cursor: pointer;
+}
+
+.uber-container{
+ height: 400px;
+ width: 400px;
+ border: 1px solid black;
+ background-color: rgb(255, 255, 255);
+}
+.location,
+.destination{
+  display: block;
+  height: 45px;
+  width: 330px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-size: 17px;
+  padding-left: 12px;
+  background-color: rgb(241, 236, 236);
+  color: rgb(151, 150, 150);
+  border: none;
+  color: black;
+}
+.request-offer{
+  margin-left: 10px;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.request-button,
+.later-button{
+  background-color: black;
+  color: white;
+  margin-left: 10px;
+  width: 164px;
+  border: none;
+  height: 45px;
+  font-size: 17px;
+  cursor: pointer;
+  color: white;
+}
+.later-button{
+  background-color: rgb(188, 186, 186);
+  color: black;
 }
